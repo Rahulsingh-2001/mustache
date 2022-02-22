@@ -1,0 +1,67 @@
+#home{
+    background: url(../img/animal-1868185__340.webp) no-repeat center center/cover;
+    height: 340px;
+    display: flex;
+    justify-content: right;
+}
+
+.text1{
+    margin-top: 20px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    width: 300px;
+color: black;
+background-color:white;
+}
+
+.text2{
+    padding: 10px 10px;
+color:white;
+background-color:rgb(26, 25, 25);
+}
+#text2{
+    width: 360px;
+}
+#text3{
+    width: 525px;
+}
+
+#text4{
+    width: 360px;
+}
+#home-item a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 30px;
+    background-color: rgb(25, 141, 102);
+}
+#read:hover{
+    color: white;
+    background-color: black;
+}
+
+#img{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin: 10px 10px;
+    width: 25%;
+    
+}
+.img{
+    border: 2px solid black;
+    width: 210px;
+    height: 210px;
+    opacity: .9;
+}
+.box p{
+    text-align: center;
+    font-weight: bolder;
+}
+.img:hover{
+    opacity: 1;
+}

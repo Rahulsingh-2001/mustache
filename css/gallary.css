@@ -1,0 +1,32 @@
+#gallary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+    align-items: center;
+}
+.img{
+    width: 30%;
+    border: 2px solid black;
+    opacity: 0.89;
+}
+#img img{
+    height: 210px;
+    width: 210px;
+}
+#img img:hover{
+    opacity: 1;
+}
+#gallary h1{
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+}

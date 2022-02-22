@@ -1,0 +1,19 @@
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 620px;
+}
+.text{
+    width: 620px;
+    text-align: center;
+    padding: 10px 3px;
+}
+#about h1{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}

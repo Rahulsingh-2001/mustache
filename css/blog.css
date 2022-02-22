@@ -1,0 +1,47 @@
+#blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: 2px solid black;
+    margin: 20px 20px;
+}
+.blog img{
+    padding: 0;
+    margin: 0;
+    height: 210px;
+    width: 250px;
+    border: 2px sloid black;
+    opacity: 0.89;
+
+}
+.blog img:hover{
+    opacity: 1;
+}
+.img{
+    border-right: 2px solid black;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.read{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+}
+
+.read:hover{
+    color: black;
+    background-color:white;
+    border: 2px solid black;
+}
